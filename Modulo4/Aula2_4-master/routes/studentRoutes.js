@@ -1,6 +1,8 @@
 import express from 'express';
 import { studentModel } from '../models/student.js';
 
+//código comentado
+
 const app = express();
 
 app.get('/student', async (req, res) => {
